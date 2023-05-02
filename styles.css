@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #E5E5E5;
+}
+
+main {
+    margin: 0 6vw;
+}
+
+header {
+    height: 6vh;
+    background: #1B83E2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 18px;
+    color: #F4F4F4;
+}
+
+#container-top {
+    display: grid;
+    margin: 3vh 0 5vh;
+}
+
+label, figcaption {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #777777;
+}
+
+select, input {
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    cursor:pointer;
+    height: 6vh;
+    appearance: none;
+    padding-left: 16px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #555555;
+    margin-bottom: 3vh;
+}
+
+button {
+    background: #1B83E2;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #F4F4F4;
+    border: none;
+    cursor: pointer;
+    height: 6vh;
+}
+button:hover { opacity: .9; }
+button:active { opacity: .7; }
+
+#container-bottom {
+    border: 1px solid #1B83E2;
+    border-radius: 4px;
+    padding: 12px;
+    display: grid;
+    justify-items: center;
+}
+
+figcaption {
+    text-align: center;
+}
+
+p {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    color: #1B83E2;
+}
+
+#arrow-image {
+    margin: 15px 0;
+}
